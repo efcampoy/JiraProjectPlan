@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #4D505F;
+}
+
+
+main  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.login {
+    background-color: #595C6E;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login > form > input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.login > form > input[type="submit"] {
+    background-color: #61D775;
+    color: fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login > form > input[type="submit"]:hover {
+    background-color: #4CAF50;  
+   
+}
+.login> form > label {
+    color:fff;
+
+}
+
+h4 {
+    color: #fff;
+    text-align: center;
+
+}
+
+/* Estilos para el header */
+/* Estilos para el header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .header h1 {
+    display: inline;
+    font-size: 20px;
+    margin-bottom: 10px;
+    align-content: center;
+  }
+  
+  .header span {
+    color: #fff;
+    float: right;
+    margin-right: 50px;
+  }
+  
+  /* Estilos para la barra lateral */
+  .sidebar {
+    background-color: #595C6E;
+    padding: 20px;
+    width: 250px;
+    float: left;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    color: #444;
+  }
+  
+  /* Estilos para el contenido principal */
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f7f7;
+    position: relative;
+  }
+  
+  .new {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    height: 475px; /* Cambia el valor de altura para aumentarla */
+    overflow-y: scroll;
+  }
+  .new h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+  }
+  
+  .new label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+  .publish {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    z-index: 2;
+  }
+  
+  .publish input[type="text"],
+  .publish input[type="file"] {
+    width: 50%;
+    padding: 8px;
+    margin: 25px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .publish input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+
+  .publish  input[type="submit"]:hover {
+    background-color: #3E8E41;
+  }
+  
+  .publish h2 {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
