@@ -1,0 +1,19 @@
+# Ignorar el archivo de documentación del proyecto
+Documentacion_proyecto.docx
+building-ssh.key
+building-ssh.key.pub
+# Ignorar el archivo log del proyecto
+log.txt
+
+# Ignorar el directorio de Terraform
+.terraform/
+
+# Ignorar todos los archivos en la carpeta terraform excepto main.tf e interface.tf
+terraform/*
+!terraform/main.tf
+!terraform/instance_web.tf
+!terraform/output.tf
+
+# Ignorar archivos temporales
+~$*.docx
+~WRL*.tmp
